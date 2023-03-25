@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long long int n = 230980320525926;
+	long long int n = 239809320265259;
 	long int p = 2;
 	long int q;
 
