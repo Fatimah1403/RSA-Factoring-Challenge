@@ -23,6 +23,6 @@ int main(void)
 	}
 
 	q = n / p;
-	print("%lld = %ld\n", n, p, q);
+	print("%lld =  %ld * %ld\n", n, p, q);
 	return (0);
 }
