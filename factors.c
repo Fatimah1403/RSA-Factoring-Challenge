@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	long long int n = 239809320265259;
-	long int p = 2;
-	long int q;
+	long long int num = 239809320265259;
+	long int factor1 = 2;
+	long int factor2;
 
-	while (n % p)
+	while (num % factors1)
 	{
-		if (p <= n)
+		if (factor1 <= num)
 		{
-			p++;
+			factor1++;
 		}
 		else
 		{
@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 
-	q = n / p;
-	print("%lld =  %ld * %ld\n", n, p, q);
+	factor2 = num / factor1;
+	printf("%lld =  %ld * %ld\n", num, factor1, factor2);
 	return (0);
 }
